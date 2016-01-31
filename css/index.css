@@ -23,7 +23,7 @@ body {
 }
 
 .first {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .second {
@@ -52,6 +52,15 @@ h2 {
 }
 
 a {
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
     text-decoration: underline;
 }
 

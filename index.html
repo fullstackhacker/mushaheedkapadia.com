@@ -10,10 +10,10 @@
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css" type="text/css">
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
         <link href='//fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="/css/index.css" type="text/css">
         <link rel="stylesheet" href="css/index.css" type="text/css">
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.1/moment.min.js"></script>
     </head>
     <body>
         <div class="container-fluid whole">
@@ -24,23 +24,31 @@
                     <h1><a href="#aboutme"<i class="fa fa-arrow-circle-down fa-icon"></i></a></h1>
                 </div>
             </div>
-            <div class="row standard second">
-                <div id="aboutme" class="inner-body">
+            <div id="aboutme" class="row standard second">
+                <div class="inner-body">
                     <h1>console.log("Hello World!");</h1> 
                     <p class="text-body">
                         Hi there! My name is Mushaheed Kapadia.
                         I'm a full stack engineer that loves everything Javascript.
                     </p>
                     <p class="text-body">
-                        From 2011 till 2015, I was skipping classes and hacking away at Rutgers University. I managed to do enough of my homework to graduate with a B.Sci in Computer Science.
+                        From 2011 till 2015, I was skipping classes and hacking away at Rutgers University.
+                        I managed to do enough of my homework to graduate with a B.Sci in Computer Science.
                     <p class="text-body">
-                        I've been living in the Bay Area since July, 2015.
+                        I moved to the Bay Area in July, 2015.
                     </p>
                     <p class="text-body">
-                        Currently, I'm building really cool shit at <a href="http://hearsaysocial.com">Hearsay Social</a>.
+                        Since then, I've been building really cool shit at <a class="link" href="http://hearsaysocial.com">Hearsay Social</a>.
                     </p>
                 </div>
             </div>
+            <div class="row standard first">
+                <div class="inner-body">
+                    <h1>My birthday is</h1>
+                    <h1 id="birthday-counter"></h1>
+                </div>
+            </div>
         </div>
+        <script src="js/birthday.js"></script>
     </body>
 </html>
