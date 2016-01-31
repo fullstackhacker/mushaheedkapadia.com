@@ -1,0 +1,66 @@
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url("//rutgersday.files.wordpress.com/2013/04/nr12rufootballvshoward6402.jpg") center center fixed;
+    background-size: cover; 
+    color: white;
+    height: 100%;
+    overflow: scroll;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.whole {
+    text-align: center;
+    height: 100%;
+}
+
+.standard {
+    height: 100%;
+}
+
+.first {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.second {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.inner-body {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size; 3em;
+}
+
+.text-body {
+    font-size: 1.7em;
+    margin-top: 3%;
+    width: 100%;
+}
+
+a {
+    text-decoration: underline;
+}
+
+.fa-icon {
+    padding: 1%;
+    margin-top: 4%;
+    transition: all 1s ease;
+}
+
+.fa-icon:hover {
+    transform: scale(2, 2);
+}
